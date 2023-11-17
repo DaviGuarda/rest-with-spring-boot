@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.erudio</groupId>
-	<artifactId>rest-with-spring-boot-and-java-erudio</artifactId>
+	<artifactId>rest-with-spring-boot-and-java-davidev</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>rest-with-spring-boot-and-java-erudio</name>
 	<properties>
@@ -114,7 +114,7 @@
 			   <groupId>org.flywaydb</groupId>
 			   <artifactId>flyway-maven-plugin</artifactId>
 			   <configuration>
-			      <url>jdbc:mysql://localhost:3306/rest_with_spring_boot_erudio?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false</url>
+			      <url>jdbc:mysql://localhost:3306/rest_with_spring_boot?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false</url>
 			      <user>root</user>
 			      <password>1234</password>
 			   </configuration>
