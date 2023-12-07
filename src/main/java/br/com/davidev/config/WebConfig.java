@@ -47,7 +47,7 @@ public class WebConfig implements WebMvcConfigurer{
 				.mediaType("json", MediaType.APPLICATION_JSON)
 				.mediaType("xml", MediaType.APPLICATION_XML);
 		*/
-		
+
 		// Via HEADER PARAM. http://localhost:8080/api/person/v1
 		
 		configurer.favorParameter(false)
